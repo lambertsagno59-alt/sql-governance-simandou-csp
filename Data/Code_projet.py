@@ -125,6 +125,7 @@ try:
     with pd.ExcelWriter('Simandou_Master_Data_CLEANED.xlsx') as writer:
         for table in ['Communities', 'Stakeholders', 'Grievances', 'Action_Plans', 'Env_Monitoring', 'Investments']:
             pd.read_sql_query(f"SELECT * FROM {table}", conn).to_excel(writer, sheet_name=table, index=False)
-    print("\n✅ PIPELINE TERMINÉ : Fichier 'Simandou_Master_Data_CLEANED.xlsx' généré avec succès.")
+    print("\n PIPELINE TERMINÉ : Fichier 'Simandou_Master_Data_CLEANED.xlsx' généré avec succès.")
 except Exception as e:
-    print(f"\n❌ ERREUR lors de l'exportation : {e}. Vérifiez que le fichier Excel n'est pas déjà ouvert.")
+
+    print(f"\n ERREUR lors de l'exportation : {e}. Vérifiez que le fichier Excel n'est pas déjà ouvert.")
