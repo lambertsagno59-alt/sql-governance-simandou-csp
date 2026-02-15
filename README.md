@@ -8,7 +8,9 @@ Le projet démontre comment une architecture **SQL** rigoureuse permet de garant
 
 
 ## 📊 Visualisation des Résultats (Dashboard)
-Le pipeline génère automatiquement un dashboard de pilotage après avoir nettoyé et audité les données. Ces indicateurs permettent de suivre la réactivité des équipes et la concentration des risques.
+Le pipeline génère automatiquement un dashboard de pilotage après avoir nettoyé et audité les données.
+
+![Dashboard Simandou](Visuals/final_dashboard.png)
 
 
 
