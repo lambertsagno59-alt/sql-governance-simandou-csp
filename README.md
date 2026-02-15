@@ -5,14 +5,13 @@ Ce projet simule un système industriel complet de gestion et de gouvernance des
 
 Le projet démontre comment une architecture **SQL** rigoureuse permet de garantir la fiabilité du registre des plaintes communautaires, un élément central pour maintenir la "Social License to Operate" (Autorisation sociale d'opérer) dans le secteur extractif.
 
----
+
 
 ## 📊 Visualisation des Résultats (Dashboard)
 Le pipeline génère automatiquement un dashboard de pilotage après avoir nettoyé et audité les données. Ces indicateurs permettent de suivre la réactivité des équipes et la concentration des risques.
 
 
 
----
 
 ## 🛠️ Stack Technique
 - **Python 3.x** : Ingestion, génération de données synthétiques et moteur de visualisation.
@@ -20,7 +19,7 @@ Le pipeline génère automatiquement un dashboard de pilotage après avoir netto
 - **Pandas / Seaborn / Matplotlib** : Manipulation de structures de données et conception du dashboard.
 - **Excel** : Format d'exportation pour les rapports de conformité.
 
----
+
 
 ## 🚀 Fonctionnalités Clés du Pipeline
 
@@ -47,7 +46,7 @@ Utilisation de **Vues SQL** pour simplifier la donnée complexe en indicateurs c
 * Matrice de risque (Croisement Sévérité / Thématique).
 * Corrélation entre budgets investis et volume de plaintes.
 
----
+
 
 ## 📈 Impact Métier
 En automatisant la chaîne de traitement, ce pipeline :
@@ -58,4 +57,4 @@ En automatisant la chaîne de traitement, ce pipeline :
 ---
 
 ## 👤 Auteur
-**Lambert** - *Data Governance & Social Performance Analyst*
+**Lambert** - *Economiste Statisticien*
